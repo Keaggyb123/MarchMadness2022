@@ -8,6 +8,9 @@ I wanted to try multiple different startegies including
 3. Logistic Regression, Decison Tree Classifier and SVC models using only the difference in WinPercent, PointDiff,	TrueShooting,	TotalReb,	Ast-Turn,	Blocks,	Steals, and	Rank between the two teams. 
 
 ### Results
+The results of the 3 different strategies and 5 different models are listed below \
+Test refers to the results of the metrics on data from before the 2022 Games. Real is the score I revieved in the competion \
+Unfortunately I was only able to My first 2 models for the competion due to lack of time
 ![MM2022R](MM2022R.png)
 
 
