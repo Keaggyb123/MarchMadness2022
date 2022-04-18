@@ -16,7 +16,7 @@
 - Unfortunately I was only able to submit My first 2 models and could not recieve marks on the last 3.
 ![MM2022R](MM2022R.png)
 
-##### Notes
+### Notes
 The average value that model 2 would predict on the 2022 data was 0.13, which is way too low. This could have been a result of over training as there was only 900 training values and I needed to predict around 2000 values. A potential way to fix this would be to use regular season games and not just playoff games as there are only 63 playoff games per season.
 
 ### Conclusion
