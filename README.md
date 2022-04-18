@@ -19,5 +19,8 @@
 ##### Notes
 The average value that model 2 would predict on the 2022 data was 0.13, which is way too low. This could have been a result of over training as there was only 900 training values and I needed to predict around 2000 values. A potential way to fix this would be to use regular season games and not just playoff games as there are only 63 playoff games per season.
 
+### Conclusion
+March Madness is without a doubt the hardest event in sports to predict, with 2^63 different potential outcomes for brackets, it is nearly impossible to predict. Using data science can helps us strip some unpredictablity from the tournament. 
+
 
 
