@@ -3,11 +3,11 @@
 ### Competiton Summary 
 * For many sports fans, March is a special month as the yearly college basketball tournament takes place in this month. Every single March millions of people fill out brackets trying to predict the results of all 63 games and everytime people fail misserably. This year I looked to use machine learning to predict the winner of every possible match-up in the March Machine Learning Mania 2022 - Men’s Kaggle competiton.
 ### Strategy
-1. A baseline model which looked only the average ranking of the team on the day before the tournament 
+1. A baseline model which looked only the average ranking of the team on the day before the tournament. This model using an arbitray sigmoid function and does not take into account any other variables beside Rank. This should be a bad a prediction becuase a signifcant amount of games are upsets, so just going with the favorite should not work well.
 ![Model1](Model1.png)
-2. A Logistic Regression Model using almost all stats available for both teams including wins and loses, points, field goals, three points, blocks assists etc
+2. A Logistic Regression Model using almost all stats available for both teams including wins and loses, points, field goals, three points, blocks assists etc. This model will most likely over fit the data as we have around 35 variables and only about 900 games to train on.
 ![Model2](Model2.png)
-3. Logistic Regression, Decison Tree Classifier and SVC models using only the difference in WinPercent, PointDiff,	TrueShooting,	TotalReb,	Ast-Turn,	Blocks,	Steals, and	Rank between the two teams.
+3. Logistic Regression, Decison Tree Classifier and SVC models using only the difference in WinPercent, PointDiff,	TrueShooting,	TotalReb,	Ast-Turn,	Blocks,	Steals, and	Rank between the two teams. By redusing complexity, these models should be able to preform the better than the models before.
 ![Model3](Model3.png) 
 
 ### Results
