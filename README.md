@@ -7,7 +7,7 @@
 ![Model1](Model1.png)
 2. A Logistic Regression Model using almost all stats available for both teams including wins and loses, points, field goals, three points, blocks assists etc. This model will most likely over fit the data as we have around 35 variables and only about 900 games to train on.
 ![Model2](Model2.png)
-3. Logistic Regression, Decison Tree Classifier and SVC models using only the difference in WinPercent, PointDiff,	TrueShooting,	TotalReb,	Ast-Turn,	Blocks,	Steals, and	Rank between the two teams. By redusing complexity, these models should be able to preform the better than the models before.
+3. Logistic Regression, Decison Tree Classifier and SVC models using only the difference in WinPercent, PointDiff,	TrueShooting,	TotalReb,	Ast-Turn,	Blocks,	Steals, and	Rank between the two teams. By reducing complexity, these models should be able to preform better than the models before.
 ![Model3](Model3.png) 
 
 ### Results
